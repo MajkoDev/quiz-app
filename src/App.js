@@ -1,11 +1,13 @@
 import './App.css';
 
+// Components
+import Settings from './components/Settings';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <h1>Quiz App</h1>
+      <Settings />
     </div>
   );
 }
